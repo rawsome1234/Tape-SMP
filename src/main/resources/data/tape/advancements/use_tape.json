@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "tape:flex_tape"
+    },
+    "title": "Alternate Uses",
+    "description": "I don't think tape is supposed to do that...",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "tape:masking_tape",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "tape:tape"
+        }
+      }
+    }
+  }
+}

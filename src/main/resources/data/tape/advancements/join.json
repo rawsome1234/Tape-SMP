@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "tape:masking_tape"
+    },
+    "title": "Welcome!",
+    "description": "You joined the Tape SMP! Welcome brave adventurer!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "tape:textures/block/tape_block_side.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "tape:masking_tape"
+    ]
+  }
+}

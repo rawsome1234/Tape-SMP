@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "tape:coffee_maker"
+    },
+    "title": "Local Brewery... Again",
+    "description": "A different kind of brewing stand, I suppose..?",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "tape:flex_tape",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tape:coffee_maker"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "tape:chilly_sweet_coffee",
+      "tape:coffee",
+      "tape:cookie_and_cream_coffee",
+      "tape:espresso",
+      "tape:garbage",
+      "tape:latte",
+      "tape:frosty_brew",
+      "tape:summer_brew",
+      "tape:heart_attack",
+      "tape:power_coffee"
+    ]
+  }
+
+}

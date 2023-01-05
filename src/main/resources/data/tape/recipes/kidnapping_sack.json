@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#T#",
+    "T-T",
+    "#T#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:string"
+    },
+    "-": {
+      "item": "minecraft:mushroom_stem"
+    },
+    "#": {
+      "item": "tape:flex_tape"
+    }
+  },
+  "result": {
+    "item": "tape:kidnapping_sack",
+    "count": 1
+  }
+}
+

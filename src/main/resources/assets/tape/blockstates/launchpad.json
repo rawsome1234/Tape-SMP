@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model":  "tape:block/launchpad",
+      "y": 90
+    },
+    "facing=north": {
+      "model":  "tape:block/launchpad"
+    },
+    "facing=south": {
+      "model":  "tape:block/launchpad",
+      "y": 180
+    },
+    "facing=west": {
+      "model":  "tape:block/launchpad",
+      "y": 270
+    }
+  }
+}

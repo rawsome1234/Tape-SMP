@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "tape:masking_tape"
+    },
+    "title": "Tape",
+    "description": "You made tape. WHooo!!!1!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "tape:join",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tape:masking_tape"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "tape:flex_tape",
+      "tape:flex_tape_base"
+    ]
+  }
+
+}

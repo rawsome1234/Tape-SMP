@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "tape:suggestion_slip"
+    },
+    "title": "Infinite Power?",
+    "description": "Anything... Any one thing...",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "tape:flex_tape",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tape:suggestion_slip"
+          }
+        ]
+      }
+    }
+  }
+}

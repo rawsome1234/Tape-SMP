@@ -1,0 +1,16 @@
+{
+  "type": "tape:coffee",
+  "bottles": 1,
+  "ticks": 100,
+  "ingredients": [
+    {
+      "item": "tape:coffee_beans"
+    },
+    {
+      "item": "tape:flex_tape"
+    }
+  ],
+  "output": {
+    "item": "tape:garbage"
+  }
+}

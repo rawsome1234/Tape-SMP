@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tape:coffee_beans",
+    "tape:frolen_beans",
+    "tape:molzen_beans"
+  ]
+}

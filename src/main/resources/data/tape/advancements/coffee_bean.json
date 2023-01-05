@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "tape:coffee_beans"
+    },
+    "title": "In order to start our game, we need to first add BEAN",
+    "description": "BEAN",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "tape:flex_tape",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tape:coffee_beans"
+          }
+        ]
+      }
+    }
+  }
+}

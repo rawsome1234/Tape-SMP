@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "TMT",
+    "SSS"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bucket"
+    },
+    "T": {
+      "item": "tape:flex_tape"
+    },
+    "M": {
+      "item": "tape:mug"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "tape:coffee_maker",
+    "count": 1
+  }
+}
+

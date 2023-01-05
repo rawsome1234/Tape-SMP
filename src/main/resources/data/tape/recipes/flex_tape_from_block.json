@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tape:tape_block"
+    }
+  ],
+  "result": {
+    "item": "tape:flex_tape",
+    "count": 4
+  },
+  "group": "flex_tape"
+}

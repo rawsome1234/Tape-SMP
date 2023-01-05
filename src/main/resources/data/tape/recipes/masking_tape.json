@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "tape:masking_tape"
+  },
+  "rewards": {
+    "recipes": [
+      "tape:flex_tape"
+    ]
+  }
+}

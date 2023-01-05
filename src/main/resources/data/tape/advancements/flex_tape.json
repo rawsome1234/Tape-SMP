@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "tape:flex_tape"
+    },
+    "title": "A Stronger Tape",
+    "description": "\"I sawed this boat in half!\"",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "tape:masking_tape",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tape:flex_tape"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "tape:launchpad",
+      "tape:suggestion_slip",
+      "tape:tape_block",
+      "tape:tape_sword",
+      "tape:tape_axe",
+      "tape:tape_hoe",
+      "tape:tape_shovel",
+      "tape:tape_pickaxe",
+      "tape:flex_tape_from_block",
+      "tape:kidnapping_sack"
+    ]
+  }
+
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tape:coffee",
+  "bottles": 4,
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "tape:frolen_beans"
+    },
+    {
+      "item": "minecraft:cookie"
+    }
+  ],
+  "output": {
+    "item": "tape:cookie_and_cream_coffee"
+  }
+}

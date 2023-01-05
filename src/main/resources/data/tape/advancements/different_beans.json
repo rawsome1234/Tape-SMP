@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "tape:frolen_beans"
+    },
+    "title": "The World of Coffee",
+    "description": "All three infi- I mean coffee beans",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "tape:coffee_bean",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tape:coffee_beans"
+          },
+          {
+            "item": "tape:frolen_beans"
+          },
+          {
+            "item": "tape:molzen_beans"
+          }
+        ]
+      }
+    }
+  }
+}

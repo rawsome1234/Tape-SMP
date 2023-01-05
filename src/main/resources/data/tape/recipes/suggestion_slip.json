@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T~T",
+    "#-#",
+    "T+T"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "-": {
+      "item": "minecraft:writable_book"
+    },
+    "T": {
+      "item": "tape:flex_tape"
+    },
+    "+": {
+      "item": "minecraft:diamond_block"
+    },
+    "~": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "tape:suggestion_slip",
+    "count": 1
+  }
+}
+

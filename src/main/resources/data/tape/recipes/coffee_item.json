@@ -1,0 +1,16 @@
+{
+  "type": "tape:coffee",
+  "bottles": 1,
+  "ticks": 200,
+  "ingredients": [
+    {
+      "item": "tape:coffee_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "item": "tape:coffee_item"
+  }
+}

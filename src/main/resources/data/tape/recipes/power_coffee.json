@@ -1,0 +1,16 @@
+{
+  "type": "tape:coffee",
+  "bottles": 4,
+  "ticks": 400,
+  "ingredients": [
+    {
+      "item": "tape:molzen_beans"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "output": {
+    "item": "tape:power_coffee"
+  }
+}

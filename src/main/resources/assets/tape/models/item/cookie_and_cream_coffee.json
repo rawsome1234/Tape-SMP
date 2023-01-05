@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tape:item/cookie_and_cream_coffee"
+  }
+}

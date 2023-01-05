@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#T#",
+    "T-T",
+    "#T#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "-": {
+      "item": "minecraft:slime_block"
+    },
+    "T": {
+      "item": "tape:flex_tape"
+    }
+  },
+  "result": {
+    "item": "tape:launchpad",
+    "count": 1
+  }
+}
+

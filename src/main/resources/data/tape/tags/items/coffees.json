@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "tape:coffee_item",
+    "tape:latte",
+    "tape:espresso",
+    "tape:garbage",
+    "tape:chilly_sweet_coffee",
+    "tape:cookie_and_cream_coffee",
+    "tape:frosty_brew",
+    "tape:summer_brew",
+    "tape:power_coffee",
+    "tape:heart_attack"
+  ]
+}

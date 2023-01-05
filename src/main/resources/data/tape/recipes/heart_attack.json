@@ -1,0 +1,16 @@
+{
+  "type": "tape:coffee",
+  "bottles": 6,
+  "ticks": 600,
+  "ingredients": [
+    {
+      "item": "tape:molzen_beans"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "output": {
+    "item": "tape:heart_attack"
+  }
+}

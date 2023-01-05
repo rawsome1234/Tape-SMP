@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model":  "tape:block/tape_block" }
+  }
+}
